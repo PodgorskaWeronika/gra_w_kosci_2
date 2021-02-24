@@ -1,0 +1,138 @@
+.flex-container
+{
+    background-color: black;
+    background-image: url('../image/rain.jpg');
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: center;
+}
+
+.top
+{
+    border: 1px solid red;
+    margin: 2px;
+    padding: 1px;
+    text-align: center;
+    color: lawngreen;
+}
+
+.center
+{
+    border: 1px solid dodgerblue;
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom
+{
+    border: 1px solid red;
+    margin: 2px;
+    padding: 1px;
+    align-content: stretch;
+    text-align: center;
+    color: lawngreen;
+}
+
+.center-left
+{
+    border: 1px solid red;
+    margin: 2px;
+    display: flex;
+    text-align: right;
+    color: chocolate;
+}
+.center-center
+{
+    border: 1px solid red;
+    margin: 2px;
+
+    display: flex;
+
+    text-align: center;
+    color: chocolate;
+}
+
+.center-right
+{
+    border: 1px solid red;
+    margin: 2px;
+
+    text-align: center;
+    color: chocolate;
+}
+
+.center-center-l
+{
+    border: 1px solid dodgerblue;
+    margin: 2px;
+    padding: 1px;
+    display: flex;
+    text-align: center;
+    color: lawngreen;
+}
+
+.center-center-c
+{
+    border: 1px solid dodgerblue;
+    margin: 2px;
+    padding: 1px;
+    display: flex;
+    text-align: center;
+    color: lawngreen;
+}
+
+.player-0
+{
+    border: 1px solid fuchsia;
+    margin: 2px;
+    padding: 1px;
+    display: flex;
+}
+
+.player-1
+{
+    border: 1px solid fuchsia;
+    margin: 2px;
+    padding: 1px;
+}
+
+.player-2
+{
+    border: 1px solid fuchsia;
+    margin: 2px;
+    padding: 1px;
+}
+
+.player-3
+{
+    border: 1px solid fuchsia;
+    margin: 2px;
+    padding: 1px;
+}
+
+.player-4
+{
+    border: 1px solid fuchsia;
+    margin: 2px;
+    padding: 1px;
+}
+
+.center-center-r
+{
+    border: 1px solid dodgerblue;
+    margin: 2px;
+    padding: 1px;
+    display: flex;
+    text-align: center;
+    color: lawngreen;
+}
+
+
+

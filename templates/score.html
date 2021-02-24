@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	    <link rel="stylesheet" href="{{url_for('static', filename='/css/score.css')}}">
+        <title>Score Dice Game</title>
+    </head>
+    <body class = 'flex-container'>
+
+        <div class = 'top'>
+            <p>TOP - {{ players }} - {{ numbers }}</p>
+        </div>
+        <section class = 'center'>
+            <div class = 'center-left'>
+                <p>center-left</p>
+            </div>
+            <section class = 'center-center'>
+                <div class = 'center-center-l'>
+                    <p>Left</p>
+                </div>
+                <section class = 'center-center-c'>
+                    {% for x in range(0, players) %}
+                        <div class='player-{{ x }}'>
+                            <p>{{ x }}</p>
+                        </div>
+                    {% endfor %}
+                </section>
+                <div class = 'center-center-r'>
+                    <p>Right</p>
+                </div>
+            </section>
+            <div class = 'center-right'>
+                <p>center-right</p>
+            </div>
+        </section>
+        <div class = 'bottom'>
+            <p>BOTTOM</p>
+        </div>
+    </body>
+</html>

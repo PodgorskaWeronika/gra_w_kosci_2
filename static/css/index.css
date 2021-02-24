@@ -1,0 +1,275 @@
+.flex-container
+{
+    background-color: black;
+    background-image: url('../image/wood-4.jpg');
+}
+
+p
+{
+    color: #ff2a28;
+    text-align: center;
+}
+
+h1
+{
+    color: #7de275;
+    font-size: 40px;
+    font-family: Lobster, helvetica, arial, sans-serif;
+    text-align: center;
+    text-shadow: #3d3d3d 1px 1px 0;
+}
+
+h2
+{
+    color: dodgerblue;
+    text-align: center;
+}
+
+h3
+{
+    color: #3d3d3d;
+    text-align: center;
+}
+
+h5
+{
+    color: white;
+    text-align: center;
+}
+
+.flex-container-top {
+    border: 1px solid green;
+    margin: 1px;
+    padding: 1em;
+}
+
+.flex-container-center
+{
+    border: 1px solid green;
+    margin: 1px;
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-container-bottom
+{
+    border: 1px solid green;
+    margin: 1px;
+    padding: 1px;
+}
+
+.flex-cc-left
+{
+    border: 1px solid darkred;
+    margin: 1px;
+    padding: 1px;
+
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 50px;
+}
+
+.flex-cc-center
+{
+    border: 1px solid darkred;
+    margin: 1px;
+    padding: 1px;
+    flex-grow: 1;
+    flex-shrink: 5;
+
+
+}
+.flex-cc-right
+{
+    border: 1px solid darkred;
+    margin: 1px;
+    padding: 1px;
+
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 50px;
+}
+
+.flex-ccc-top
+{
+    border: 1px solid white;
+    margin: 1px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-ccc-center
+{
+    border: 1px solid white;
+    margin: 1px;
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-ccc-bottom
+{
+    border: 1px solid white;
+    margin: 1px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.player-0
+{
+    /*border: 1px solid yellow;
+    background-color: #3d3d3d;*/
+    padding: 1px;
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+
+}
+
+.player-1
+{
+    /*border: 1px solid yellow;*/
+    padding: 1px;
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+}
+
+.player-2
+{
+    /*border: 1px solid yellow;*/
+    /*background-color: black;*/
+    padding: 1px;
+    margin: 1px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.player-3
+{
+    /*border: 1px solid yellow;*/
+    padding: 1px;
+    margin: 1px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.player-4
+{
+    /*border: 1px solid yellow;*/
+    padding: 1px;
+    margin: 1px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-item-0
+{
+    border: 1px solid #216db5;
+    background-color: #0c86ff;
+    padding: 3px;
+    margin: 1px;
+    color: yellow;
+    font-family: Calibri, sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.list-item-S
+{
+    border: 1px solid #216db5;
+    background: linear-gradient(#22a7ff, #0c4e9b);
+    padding: 6px;
+    margin: 1px;
+    color: white;
+    font-family: Calibri, sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.list-item-1
+{
+    border: 1px solid #c67fe5;
+    background-color: #df8fff;
+    padding: 3px;
+    margin: 1px;
+    color: black;
+    font-family: Calibri, sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.list-item-2
+{
+    border: 1px solid #d48e6f;
+    background-color: #ffb576;
+    padding: 3px;
+    margin: 1px;
+    color: black;
+    font-family: Calibri, sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.list-item-3
+{
+    border: 1px solid #5cb85c;
+    background-color: #89ff90;
+    padding: 3px;
+    margin: 1px;
+    color: black;
+    font-family: Calibri, sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.list-item-4
+{
+    border: 1px solid #c28161;
+    background-color: #ffb999;
+    padding: 3px;
+    margin: 1px;
+    color: black;
+    font-family: Calibri, sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+
+.image
+{
+    margin: 10px;
+    /*object-fit: contain;*/
+}
+
+
+.image:hover
+{
+    -webkit-box-shadow: 0px 0px 10px 5px #000000;
+    box-shadow: 0px 0px 10px 5px #000000;
+}
+
+.check
+{
+    border: 1px solid red;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
